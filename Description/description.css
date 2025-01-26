@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(221, 161, 161);
+  background-color: rgb(227, 196, 196);
 }
 .nav {
   margin-top: 15px;
@@ -34,7 +34,9 @@ body {
   padding-top: 100px;
 }
 .div2 {
+  display: flex;
   position: relative;
+  justify-content: center;
 }
 .a {
   position: absolute;
@@ -47,4 +49,40 @@ body {
   justify-content: center;
   margin-top: 4px;
   margin-left: -24px;
+}
+.manage {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+.goal {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+.rule {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+.section {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
 }

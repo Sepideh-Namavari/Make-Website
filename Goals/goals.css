@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   body {
-    background-color: rgb(221, 161, 161);
+    background-color: rgb(227, 196, 196);
   }
   .nav {
     margin-top: 15px;
@@ -27,7 +27,7 @@
   }
   .div1 {display: flex;
     position: relative;
-    margin-left: 40px;
+    justify-content: center;
   }
   .a {
     position: absolute;
@@ -50,3 +50,12 @@
     border-radius: 20px;}
     
   ul{margin-left: 1rem;}
+  .goal{
+    position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+  }
