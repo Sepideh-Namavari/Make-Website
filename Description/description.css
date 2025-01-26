@@ -15,7 +15,7 @@ body {
   margin-top: 15px;
   color: rgba(150, 18, 18, 0.683);
 }
-.para {display: flex;
+.para {
   width: 90vw;
   height: 50vh;
   margin: 30px 50px;
