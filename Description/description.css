@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(227, 196, 196);
+}
+.nav {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#hr {
+  margin-top: 15px;
+  color: rgba(150, 18, 18, 0.683);
+}
+.para {display: flex;
+  width: 90vw;
+  height: 50vh;
+  margin: 30px 50px;
+  padding: 2rem;
+  border: rgba(150, 18, 18, 0.683) solid 2px;
+  border-radius: 20px;
+}
+.art {
+  width: 150px;
+  height: 180px;
+  background-color: rgb(177, 98, 98);
+  display: inline-block;
+  text-align: center;
+  margin: 10px 80px;
+  border-radius: 20px;
+  padding-top: 100px;
+}
+.div2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.a {
+  position: absolute;
+  background-color: rgb(185, 32, 32);
+  color: rgb(219, 199, 199);
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: -24px;
+}
+.manage {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+.goal {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+.rule {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
+.section {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 45px;
+  border-radius: 10px;
+}
